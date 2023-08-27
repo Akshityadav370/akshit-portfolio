@@ -20,7 +20,12 @@ hr {
 
 /* spaces */
 .margin-md {
-  margin: 2rem;
+  margin: 5rem;
+  text-align: center;
+  height: 30vh;
+  margin: auto;
+  padding-top: 1rem;
+  border-radius: 2rem;
 }
 
 /* container */
@@ -71,7 +76,7 @@ hr {
 }
 .navigation .nav-brand {
   font-weight: bolder;
-  font-size: medium;
+  font-size: 1.2rem;
 }
 .navigation .nav-pills {
   text-align: right;
@@ -80,8 +85,10 @@ hr {
   color: white;
 }
 .navigation .link-active {
+  font-size: 1.5rem;
   font-weight: bolder;
-  color: black;
+  color: white;
+  border-bottom: 1px solid white;
 }
 
 /* header */
